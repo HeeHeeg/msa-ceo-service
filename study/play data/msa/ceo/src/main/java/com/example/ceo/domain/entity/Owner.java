@@ -11,7 +11,7 @@ import java.util.UUID;
 @AllArgsConstructor @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @Builder @Getter
 public class Owner {
-    @Id @GeneratedValue(strategy = GenerationType.UUID)
+    @Id
     private UUID id;
     private String name;
     private String number;
